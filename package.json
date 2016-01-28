@@ -1,0 +1,10 @@
+{
+  "name": "systemjs-plugin-css-modules",
+  "version": "0.0.1",
+  "main": "src/css.js",
+  "license": "MIT",
+  "dependencies": {
+    "css-modules-loader-core": "npm:css-modules-loader-core@^1.0.0"
+  },
+  "registry": "jspm"
+}
