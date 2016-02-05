@@ -21,6 +21,6 @@ export default async function smellyFetch(fileWithQuotes, messedUpParent) {
   // for some reason it also returns the filepath in quotes
   const file = fileWithQuotes.replace(/^["']|["']$/g, '')
 
-  const module = await System.import(file, parent)
+  const module = await System.load(file, parent)
   return module.default
 }
