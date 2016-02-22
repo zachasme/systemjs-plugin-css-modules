@@ -13,6 +13,7 @@ export function inject(file, css) {
   injects[file].innerHTML = css
 }
 
+// used for bundled output
 export const INJECT_FUNCTION_STRING = `
 (function(c){
   if (typeof document == 'undefined') return;
